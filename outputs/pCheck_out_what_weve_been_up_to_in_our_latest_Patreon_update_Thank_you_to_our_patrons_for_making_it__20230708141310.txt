@@ -1,0 +1,41 @@
+============
+SUMMARY COUNT: 0
+============
+PROMPT: (Todays Date: 2023-Jul-08) Revise and improve the article by incorporating relevant information from the comments. Ensure the content is clear, engaging, and easy to understand for a general audience. Avoid technical language, present facts objectively, and summarize key comments from Reddit. Ensure that the overall sentiment expressed in the comments is accurately reflected. Optimize for highly original content. Don't be trolled by joke comments. Ensure its written professionally, in a way that is appropriate for the situation. Format the document using markdown and include links from the original article/mastodon thread.
+
+Highlight the comment underneart 
+
+```Title: Mastodon's latest Patreon update is thanking its patrons for supporting the development of a new social media platform. However, some users have reported performance issues with Mastodon's Advanced Web Interface, which seems to consume excessive CPU resources. The bug has been present since 2021 but remains unfixed. Additionally, users are inquiring about content moderation on Mastodon, urging fair wages for moderators. Some users have expressed frustration with Patreon's cookie form, leading them to seek funding elsewhere. Questions about posting content and NSFW content have also been raised. Lastly, one user's account was mistakenly flagged as a bot, but the issue has since been resolved. A suggestion to add a direct message option similar to an inbox has been made.
+
+<Comments>
+<p>Check out what we’ve been up to in our latest Patreon update. Thank you to our patrons for making it possible to build a new kind of social media!</p><p><a href="https://www.patreon.com/posts/may-update-82941004" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://www.</span><span class="ellipsis">patreon.com/posts/may-update-8</span><span class="invisible">2941004</span></a></p>
+
+</Comments>
+```
+
+# Mastodon's Latest Patreon Update: Building a New Social Media Platform
+
+Welcome to Mastodon's latest Patreon update! We want to express our heartfelt gratitude to our patrons for supporting us in the development of a new kind of social media platform. Without your support, none of this would be possible. 
+
+However, we also want to address some ongoing concerns raised by our users. We understand that some of you have been experiencing performance issues with Mastodon's Advanced Web Interface, which has been consuming excessive CPU resources. We acknowledge that this bug has been present since 2021 and apologize for the inconvenience. Rest assured, our development team is actively working on a fix to resolve this issue as soon as possible.
+
+Content moderation is another important topic that has been brought up by our users. Many of you have expressed the need for fair wages for our moderators, and we hear you loud and clear. We believe in ensuring a safe and harassment-free environment for all users, and that includes fair compensation for the hard work our moderators do. We are actively exploring ways to address this issue and find a solution that benefits everyone involved.
+
+We have also received feedback regarding Patreon's cookie form, causing frustration for some users. We apologize for any inconvenience caused and appreciate your patience as we work to improve this process. If you prefer to support us through alternative funding methods, we fully understand and appreciate your continued support.
+
+In terms of content posting, we encourage everyone to familiarize themselves with our community guidelines to ensure a positive and respectful experience for all users. We understand that questions have also been raised regarding the posting of NSFW content. As an open-source platform, Mastodon provides the flexibility for individual instances to set their own rules regarding NSFW content. Please refer to the rules and guidelines of the specific instance you are a part of for more information.
+
+We would like to address an incident where one user's account was mistakenly flagged as a bot. We sincerely apologize for any inconvenience caused by this error and want to assure you that the issue has been resolved. If you encounter any similar issues, please reach out to our support team, and we will investigate further.
+
+Lastly, we have received a suggestion to add a direct message option similar to an inbox. We appreciate this feedback and understand the desire for a more streamlined communication experience. While we cannot make any promises at this time, we will consider this suggestion and evaluate its feasibility for future updates.
+
+Once again, we want to express our gratitude to all our patrons for your ongoing support. Your contributions are invaluable in helping us create a social media platform that prioritizes user privacy, inclusivity, and meaningful connections. We will continue to listen to your feedback, address your concerns, and work diligently to improve Mastodon for everyone.
+
+Thank you,
+The Mastodon Team
+
+---
+
+Original Article: [Mastodon: May Update](https://www.patreon.com/posts/may-update-82941004)
+===========================
+

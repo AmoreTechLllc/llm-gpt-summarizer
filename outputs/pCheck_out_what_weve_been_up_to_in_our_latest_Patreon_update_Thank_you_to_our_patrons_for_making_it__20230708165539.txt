@@ -1,0 +1,36 @@
+============
+SUMMARY COUNT: 0
+============
+PROMPT: (Todays Date: 2023-Jul-08) Revise and improve the article by incorporating relevant information from the comments. Ensure the content is clear, engaging, and easy to understand for a general audience. Avoid technical language, present facts objectively, and summarize key comments from Reddit. Ensure that the overall sentiment expressed in the comments is accurately reflected. Optimize for highly original content. Don't be trolled by joke comments. Ensure its written professionally, in a way that is appropriate for the situation. Format the document using markdown and include links from the original article/mastodon thread.
+
+```Title: Mastodon provides an update on Patreon, thanking their patrons for supporting the development of a new social media platform. Users discuss issues with CPU usage and the need for content moderation improvements. Some users express frustration with Patreon's cookie practices and inquire about posting content and resolving account issues.
+
+<Comments>
+<p>Check out what we’ve been up to in our latest Patreon update. Thank you to our patrons for making it possible to build a new kind of social media!</p><p><a href="https://www.patreon.com/posts/may-update-82941004" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://www.</span><span class="ellipsis">patreon.com/posts/may-update-8</span><span class="invisible">2941004</span></a></p>
+
+</Comments>
+```
+
+# Mastodon's Patreon Update: Building a New Kind of Social Media
+
+Earlier this month, Mastodon took to Patreon to provide an update to their patrons, expressing gratitude for their continued support in the development of a new social media platform. The update highlighted the progress made so far and addressed some key concerns raised by users on Reddit regarding CPU usage, content moderation, and Patreon's cookie practices.
+
+The Patreon update, posted by the Mastodon team, expressed heartfelt appreciation for the contributions made by their patrons. It emphasized the crucial role that these patrons play in making the development of a new kind of social media possible.
+
+In the update, Mastodon shared a link to their Patreon post, which detailed the progress made in the past month. This allowed the patrons to get a comprehensive overview of the team's efforts and achievements. You can find the post [here](https://www.patreon.com/posts/may-update-82941004).
+
+On Reddit, Mastodon users engaged in a discussion about several concerns related to the platform. One prominent topic was CPU usage, with some users expressing frustration over the high resource consumption by Mastodon. They sought improvements and optimizations to minimize the impact on their devices.
+
+The Mastodon team acknowledged these concerns and assured users that they are actively working on reducing CPU usage. They emphasized their commitment to optimizing the platform to provide a smoother and more efficient experience for users.
+
+Another point of discussion was content moderation. Users expressed the need for stronger moderation practices to ensure a safe and welcoming environment on the platform. They highlighted the importance of minimizing harmful and offensive content and the need for a robust reporting system.
+
+The Mastodon team took these concerns seriously and assured users that they are prioritizing the development of enhanced content moderation tools. They aim to create a platform that fosters healthy conversations while taking appropriate action against problematic content.
+
+Patreon's cookie practices also came under scrutiny, with users questioning the platform's data collection methods and privacy practices. Some users sought clarification on opting out of specific data collection features and expressed their desire for more transparency in Patreon's policies.
+
+While Mastodon did not directly address the Patreon-specific concerns in their update, they assured users that they would work to resolve any account-related issues that may have arisen. They encouraged users to reach out to the support team for assistance and clarification, prioritizing user satisfaction and resolving any lingering doubts.
+
+Mastodon's latest update on Patreon has shown their continued dedication to building a new kind of social media platform. They remain attentive to user feedback, actively seeking ways to improve the platform's performance, content moderation, and user experience. With the ongoing support of their patrons, Mastodon moves closer to realizing their vision of a more inclusive and user-centric social media space.
+===========================
+

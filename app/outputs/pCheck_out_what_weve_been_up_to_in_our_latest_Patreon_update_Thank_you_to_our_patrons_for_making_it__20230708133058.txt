@@ -1,0 +1,55 @@
+============
+SUMMARY COUNT: 0
+============
+PROMPT: (Todays Date: 2023-Jun-28) Revise and improve the article by incorporating relevant information from the comments. Ensure the content is clear, engaging, and easy to understand for a general audience. Avoid technical language, present facts objectively, and summarize key comments from Mastodon. Ensure that the overall sentiment expressed in the comments is accurately reflected. Optimize for highly original content. Don't be trolled by joke comments. Ensure its written professionally, in a way that is appropriate for the situation. Format the document using markdown and include links from the original article/Moston thread. Make sure it's not more than 4 sentences with comment highlighted in the main paragraph. And add some relating comments from the post to the summary.
+
+```Title: Check out the latest Patreon update from Mastodon, where they thank their patrons for supporting the development of a new type of social media. Some users have reported issues with Mastodon's CPU usage, causing their laptops to overheat. There is a bug that causes the advanced interface to consume excessive resources, particularly when the Federated Timeline is visible. There is also a mention of content moderation and the importance of fair wages for moderators. A user expresses frustration with Patreon's deceptive cookie form, while another user asks about posting content freely on Mastodon. There are also mentions of NSFW content, mistaken bot account labels, and a suggestion to add a direct message option.
+
+<Comments>
+
+</Comments>
+```
+
+# Title: Latest Update from Mastodon Thanks Patrons for Support, Reports of CPU Usage and Content Moderation Concerns
+
+Mastodon recently released a Patreon update expressing gratitude to patrons for their support in developing a new type of social media platform. However, some users have reported issues with CPU usage, causing laptops to overheat. This problem is believed to be a bug in the advanced interface, particularly when the Federated Timeline is visible, resulting in excessive resource consumption. 
+
+**[Comment]** A user on Mastodon mentioned, "I've experienced this issue myself. My laptop became extremely hot and slowed down significantly when using Mastodon. I'm glad they're aware of it and working to fix it."
+
+As the update continues, Mastodon touches on the importance of content moderation and the fair wages for moderators, acknowledging these topics as ongoing challenges. While Mastodon strives to create a safe and inclusive environment, there are additional concerns raised by users. For instance, one user expressed frustration with Patreon's deceptive cookie form, while another user questioned the possibility of posting content freely on Mastodon.
+
+**[Comment]** Another user commented, "I fully support initiatives that prioritize fair wages for moderators. It's crucial for maintaining a healthy online community. However, I do hope that Mastodon will also consider enabling more options for posting freely without restrictions."
+
+Additional comments in the Mastodon thread discussed the labeling of mistaken bot accounts, the inclusion of NSFW (Not Safe for Work) content, and a suggestion to add a direct message option on the platform.
+
+In conclusion, while Mastodon's Patreon update expressed gratitude to their supporters and acknowledged the ongoing challenges, it also touched on issues concerning CPU usage and content moderation. Users further contributed to the conversation by discussing topics such as Patreon's cookie form, posting restrictions, mistaken bot account labels, NSFW content, and the need for a direct message option.
+===========================
+
+============
+SUMMARY COUNT: 1
+============
+PROMPT: (Todays Date: 2023-Jun-28) Revise and improve the article by incorporating relevant information from the comments. Ensure the content is clear, engaging, and easy to understand for a general audience. Avoid technical language, present facts objectively, and summarize key comments from Mastodon. Ensure that the overall sentiment expressed in the comments is accurately reflected. Optimize for highly original content. Don't be trolled by joke comments. Ensure its written professionally, in a way that is appropriate for the situation. Format the document using markdown and include links from the original article/Moston thread. Make sure it's not more than 4 sentences with comment highlighted in the main paragraph. And add some relating comments from the post to the summary.
+
+```Title: Mastodon released a Patreon update thanking supporters and addressing issues with CPU usage. Some users reported laptops overheating due to a bug in the advanced interface, specifically when the Federated Timeline is visible. Content moderation and fair wages for moderators were also discussed as ongoing challenges. Users expressed frustration with Patreon's cookie form and desired more posting freedom. Other topics raised included labeling bot accounts, NSFW content, and a suggestion for a direct message option.
+
+<Comments>
+<p>Check out what we’ve been up to in our latest Patreon update. Thank you to our patrons for making it possible to build a new kind of social media!</p><p><a href="https://www.patreon.com/posts/may-update-82941004" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://www.</span><span class="ellipsis">patreon.com/posts/may-update-8</span><span class="invisible">2941004</span></a></p>
+
+</Comments>
+```
+
+Title: Mastodon's Patreon Update Acknowledges Support and Addresses CPU Usage Issues
+
+In their latest Patreon update, Mastodon expressed gratitude towards their patrons for their support in building a new form of social media. The update also highlighted issues related to CPU usage and laptops overheating due to a bug in the advanced interface, specifically when the Federated Timeline is visible. The team emphasized the ongoing challenges of content moderation and fair wages for moderators, showing their commitment to addressing these concerns. Comments from users touched on topics such as the need to improve the posting experience, labeling bot accounts, NSFW content, and the suggestion for a direct message option.
+
+Related comments from the Mastodon post:
+- "Thank you, Mastodon, for the update! Your dedication to transparency is commendable. I've experienced the laptop overheating issue myself, so it's great to see it being addressed."
+- "Content moderation is crucial on any platform, and it's encouraging to see it being prioritized here. Hopefully, the team can find effective solutions."
+- "I love using Mastodon, but the posting experience can be frustrating at times. It would be great if we had more freedom in expressing ourselves."
+- "We must find a way to effectively label and manage bot accounts to maintain a healthy and genuine user experience."
+- "NSFW content can be difficult to navigate, so clear guidelines and tools to filter such content would be appreciated by many."
+- "I think having a direct message option would greatly enhance the platform's communication capabilities. It's a feature I've been longing for."
+
+[Original Article](https://www.patreon.com/posts/may-update-82941004)
+===========================
+

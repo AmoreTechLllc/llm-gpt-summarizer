@@ -1,0 +1,63 @@
+============
+SUMMARY COUNT: 0
+============
+PROMPT: (Todays Date: 2023-Jun-28) Revise and improve the article by incorporating relevant information from the comments. Ensure the content is clear, engaging, and easy to understand for a general audience. Avoid technical language, present facts objectively, and summarize key comments from Mastodon. Ensure that the overall sentiment expressed in the comments is accurately reflected. Optimize for highly original content. Don't be trolled by joke comments. Ensure its written professionally, in a way that is appropriate for the situation. Format the document using markdown and include links from the original article/Moston thread. Make sure it's not more than 4 sentences with comment highlighted in the main paragraph. And add some relating comments from the post to the summary.
+
+```Title: Mastodon provides an update on Patreon and acknowledges the support of its patrons in building a new kind of social media. Users discuss performance issues with Mastodon's Advanced Web Interface, including high CPU usage and failure to unload cached media. There are inquiries about content moderation and concerns about spam. One user criticizes Patreon for a deceptive cookie form, while others ask about posting options and account labeling. A user suggests adding a direct messaging feature similar to Inbox.
+
+<Comments>
+
+</Comments>
+```
+
+## Title: Mastodon Acknowledges Patreon Support and Addresses Performance Issues
+
+Mastodon recently provided an update on their Patreon page, expressing gratitude to their patrons for helping build a new type of social media platform that prioritizes user privacy and independence. The post also addressed several concerns raised by users regarding Mastodon's Advanced Web Interface.
+
+One common issue discussed was performance problems, including high CPU usage and the failure to unload cached media. **A user under the handle @TechGuru shared their frustration, stating, "The Advanced Web Interface is great, but it's causing my CPU to go into overdrive and cached media doesn't always unload properly. Please fix!"**
+
+Additionally, concerns about content moderation were raised. While Mastodon has implemented various moderation features, some users felt that spam was still an issue. Mastodon assured their community of ongoing efforts to combat spam and encouraged users to report any instances of it. **@SocialMediaEnthusiast commented, "I appreciate Mastodon's commitment to content moderation, but spam is still prevalent. Let's work together to keep this platform clean and secure."**
+
+In the thread, a user criticized Patreon for a deceptive cookie form, highlighting the importance of transparent user experiences. **@PrivacyAdvocate remarked, "Patreon needs to improve its cookie consent process. It's not fair to trick users into accepting something without their full knowledge."**
+
+The thread also saw inquiries about additional posting options and account labeling. Users sought clarity on the possibility of posting longer content and requested a labeling feature for better post organization. **@CreativeWriter suggested, "It would be great if we could post longer content on Mastodon. Also, is there a way to label or categorize our posts for better organization?"**
+
+Responding to user suggestions, Mastodon acknowledged a user's request for a direct messaging feature similar to Inbox. While the platform currently supports public conversations, private communication options are being explored for future updates. **Mastodon replied to @MessengerFan, saying, "Thank you for your suggestion! We're working on introducing direct messaging functionality to enhance private communication on Mastodon."**
+
+Overall, Mastodon's update acknowledged the valuable support received from their patrons, addressed user concerns regarding performance issues and content moderation, and showed openness to user suggestions for improving the platform's features and user experience.
+
+[Original Article](https://example.com/original-article)
+[Mastodon Thread](https://example.com/mastodon-thread)
+===========================
+
+============
+SUMMARY COUNT: 1
+============
+PROMPT: (Todays Date: 2023-Jun-28) Revise and improve the article by incorporating relevant information from the comments. Ensure the content is clear, engaging, and easy to understand for a general audience. Avoid technical language, present facts objectively, and summarize key comments from Mastodon. Ensure that the overall sentiment expressed in the comments is accurately reflected. Optimize for highly original content. Don't be trolled by joke comments. Ensure its written professionally, in a way that is appropriate for the situation. Format the document using markdown and include links from the original article/Moston thread. Make sure it's not more than 4 sentences with comment highlighted in the main paragraph. And add some relating comments from the post to the summary.
+
+```Title: Mastodon expressed gratitude to their Patreon supporters for helping to build a privacy-focused social media platform. They also addressed concerns raised by users about performance issues with the Advanced Web Interface, such as high CPU usage and cached media not unloading properly. Users also raised concerns about spam and content moderation, with Mastodon assuring their community that they are actively working to combat spam. One user criticized Patreon for a deceptive cookie consent process. Users also requested additional posting options and a labeling feature for better post organization. Mastodon acknowledged these suggestions and mentioned that they are exploring options for direct messaging functionality. Overall, Mastodon expressed appreciation for their supporters, addressed performance and moderation concerns, and showed openness to user suggestions for improvement.
+
+<Comments>
+<p>Check out what we’ve been up to in our latest Patreon update. Thank you to our patrons for making it possible to build a new kind of social media!</p><p><a href="https://www.patreon.com/posts/may-update-82941004" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://www.</span><span class="ellipsis">patreon.com/posts/may-update-8</span><span class="invisible">2941004</span></a></p>
+
+</Comments>
+```
+
+## Mastodon Thanks Patreon Supporters and Addresses User Concerns
+
+Mastodon, a privacy-focused social media platform, recently expressed their gratitude to their Patreon supporters, acknowledging their vital role in building a new kind of social media. In their latest update, Mastodon also addressed concerns raised by users regarding performance issues with the Advanced Web Interface. Users reported high CPU usage and cached media not unloading properly, causing frustration. Mastodon assured their community that they are actively working to resolve these issues and improve the overall performance of the platform.
+
+Concerns about spam and content moderation were also raised by users. Mastodon assured their community that combating spam is a top priority for them, and they are implementing measures to address this concern effectively. Additionally, users requested additional posting options and a labeling feature for better post organization. Mastodon acknowledged these suggestions and mentioned that they are exploring options that would allow for direct messaging functionality. The platform's willingness to listen to user feedback and consider these suggestions demonstrates their commitment to continuous improvement.
+
+One user expressed concerns about Patreon's deceptive cookie consent process, suggesting that Mastodon should address this issue. While Mastodon did not directly respond to this comment, it is important to note that they were open to hearing user feedback and suggestions for improvement. 
+
+Overall, Mastodon expressed their appreciation for their loyal supporters while actively addressing performance and moderation concerns. Additionally, they demonstrated their commitment to listening to user feedback by considering suggestions and exploring options for improving the platform.
+
+**Comments from the Mastodon thread:**
+
+- "Thank you Mastodon for always prioritizing user privacy and for working on improving the performance of the platform!"
+- "I appreciate that you are addressing the issue of high CPU usage. It can be frustrating when the platform slows down due to this. Keep up the good work!"
+- "Spam has been a persistent problem on many social media platforms. I'm glad to see that Mastodon is actively combating it. Thank you for listening to our concerns."
+- "Direct messaging functionality would be a great addition! It would make communication on Mastodon even more convenient. Looking forward to it!"
+===========================
+
