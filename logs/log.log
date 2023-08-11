@@ -2131,3 +2131,457 @@ Traceback (most recent call last):
   File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
     raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
 mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:2023-08-11 10:45:49: load_env returned {'OPENAI_ORG_ID': 'org-e6CI0QVliH02TQKcvkrVY9v9', 'OPENAI_API_KEY': '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', 'REDDIT_CLIENT_ID': 'nfjsP948tQjmfmBFdRvswg', 'REDDIT_CLIENT_SECRET': '73m4mxL5FHe2eWx96VDc-wNRRLG3ZA', 'REDDIT_USERNAME': 'Fit-Quit-4623', 'REDDIT_PASSWORD': 'akanjim.a1', 'REDDIT_USER_AGENT': 'linux:com.youragent.reddit-gpt-summarizer:v1.0.0 (by /u/Fit-Quit-4623)', 'MASTODON_ACCESS_TOKEN': 'access_token', 'MASTODON_API_BASE_URL': 'api_base_url'}[0m
+[32mINFO:2023-08-11 10:45:49: load_env returned {'OPENAI_ORG_ID': 'org-e6CI0QVliH02TQKcvkrVY9v9', 'OPENAI_API_KEY': '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', 'REDDIT_CLIENT_ID': 'nfjsP948tQjmfmBFdRvswg', 'REDDIT_CLIENT_SECRET': '73m4mxL5FHe2eWx96VDc-wNRRLG3ZA', 'REDDIT_USERNAME': 'Fit-Quit-4623', 'REDDIT_PASSWORD': 'akanjim.a1', 'REDDIT_USER_AGENT': 'linux:com.youragent.reddit-gpt-summarizer:v1.0.0 (by /u/Fit-Quit-4623)', 'MASTODON_ACCESS_TOKEN': 'access_token', 'MASTODON_API_BASE_URL': 'api_base_url'}[0m
+[32mINFO:2023-08-11 10:45:49: load_env returned {'OPENAI_ORG_ID': 'org-e6CI0QVliH02TQKcvkrVY9v9', 'OPENAI_API_KEY': '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', 'REDDIT_CLIENT_ID': 'nfjsP948tQjmfmBFdRvswg', 'REDDIT_CLIENT_SECRET': '73m4mxL5FHe2eWx96VDc-wNRRLG3ZA', 'REDDIT_USERNAME': 'Fit-Quit-4623', 'REDDIT_PASSWORD': 'akanjim.a1', 'REDDIT_USER_AGENT': 'linux:com.youragent.reddit-gpt-summarizer:v1.0.0 (by /u/Fit-Quit-4623)', 'MASTODON_ACCESS_TOKEN': 'access_token', 'MASTODON_API_BASE_URL': 'api_base_url'}[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Loading layout[0m
+[32mINFO:>>> Remote debugging is NOT active <<<[0m
+[32mINFO:>>> Remote debugging is NOT active <<<[0m
+[32mINFO:>>> Remote debugging is NOT active <<<[0m
+[32mINFO:>>> Remote debugging is NOT active <<<[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:2023-08-11 10:46:06: complete_openai_text returned Check out our latest Patreon update to see what we've been working on. We appreciate our patrons for supporting the development of a new kind of social media. Some users have reported high CPU usage from Mastodon's advanced web interface, causing their laptop fans to run constantly. A bug related to the interface failing to unload cached media has been present since 2021. There have also been concerns about content moderation on mastodon.social, with reports of spam and the need for fair wages for moderators. If you're looking for funding, you may want to consider alternatives to Patreon due to issues with their cookie consent form. New Mastodon users have expressed confusion about the presence of NSFW content on the platform. There have also been cases of accounts being incorrectly labeled as bot accounts and difficulties in getting them fixed. However, some users have mentioned that the issue has been resolved. Finally, there have been suggestions to add a direct message option similar to an inbox.[0m
+[32mINFO:2023-08-11 10:46:06: complete_text returned Check out our latest Patreon update to see what we've been working on. We appreciate our patrons for supporting the development of a new kind of social media. Some users have reported high CPU usage from Mastodon's advanced web interface, causing their laptop fans to run constantly. A bug related to the interface failing to unload cached media has been present since 2021. There have also been concerns about content moderation on mastodon.social, with reports of spam and the need for fair wages for moderators. If you're looking for funding, you may want to consider alternatives to Patreon due to issues with their cookie consent form. New Mastodon users have expressed confusion about the presence of NSFW content on the platform. There have also been cases of accounts being incorrectly labeled as bot accounts and difficulties in getting them fixed. However, some users have mentioned that the issue has been resolved. Finally, there have been suggestions to add a direct message option similar to an inbox.[0m
+[32mINFO:2023-08-11 10:46:06: summarize_summary returned Check out our latest Patreon update to see what we've been working on. We appreciate our patrons for supporting the development of a new kind of social media. Some users have reported high CPU usage from Mastodon's advanced web interface, causing their laptop fans to run constantly. A bug related to the interface failing to unload cached media has been present since 2021. There have also been concerns about content moderation on mastodon.social, with reports of spam and the need for fair wages for moderators. If you're looking for funding, you may want to consider alternatives to Patreon due to issues with their cookie consent form. New Mastodon users have expressed confusion about the presence of NSFW content on the platform. There have also been cases of accounts being incorrectly labeled as bot accounts and difficulties in getting them fixed. However, some users have mentioned that the issue has been resolved. Finally, there have been suggestions to add a direct message option similar to an inbox.[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:Loading layout[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')
+[32mINFO:Loading layout[0m
+[32mINFO:Generating summary data[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:Error getting Mastodon data: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+[31mERROR:('Mastodon API returned error', 404, 'Not Found', 'Record not found')[0m
+Traceback (most recent call last):
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\ui\render.py", line 61, in render_output
+    mastodon_data = get_mastodon_data(
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 151, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 147, in get_mastodon_data
+    raise ex
+  File "C:\Users\DELL X360\IdeaProjects\llm-mastodon-summarizer\app\generate_data.py", line 131, in get_mastodon_data
+    post = mastodon.status(post_id)
+  File "C:\Python310\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Python310\lib\site-packages\mastodon\utility.py", line 49, in wrapper
+    return function(self, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\mastodon\statuses.py", line 27, in status
+    return self.__api_request('GET', f'/api/v1/statuses/{id}')
+  File "C:\Python310\lib\site-packages\mastodon\internals.py", line 297, in __api_request
+    raise ex_type('Mastodon API returned error', response_object.status_code, response_object.reason, error_msg)
+mastodon.errors.MastodonNotFoundError: ('Mastodon API returned error', 404, 'Not Found', 'Record not found')

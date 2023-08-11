@@ -7,6 +7,7 @@ WORKDIR /app
 # Copy the repository files to the container
 COPY . /app
 
+
 # Install dependencies using Poetry
 RUN pip install poetry
 RUN poetry config virtualenvs.create false
