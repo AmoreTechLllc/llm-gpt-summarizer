@@ -1,5 +1,6 @@
 """data functions for Mastodon Scraper project."""
 import logging
+import re
 from datetime import datetime
 from typing import Any, Callable, List, Optional, Tuple
 
@@ -93,39 +94,61 @@ mastodon = Mastodon(
     access_token='3FBZYtsShFIpzlD9zCy3uU4u9lZMe0TAhxT_xdwVBaQ',
     api_base_url='https://mastodon.social'
 )
+
 class MastodonData:
     def __init__(self, content: Optional[str], username: Optional[str], comments: List[str]):
         self.content = content
         self.username = username
         self.comments = comments
+def ensure_trailing_slash(url: str) -> str:
+    """Ensure that the URL ends with a trailing slash."""
+    if not url.endswith('/'):
+        url += '/'
+    return url
 
-def get_mastodon_data(mastodon_url: str,
-                      logger: logging.Logger) -> MastodonData:
+def extract_instance_url(mastodon_url: str) -> str:
+    """Extract the Mastodon instance URL from the Mastodon URL."""
+    mastodon_url = ensure_trailing_slash(mastodon_url)  # Ensure the entire URL has a trailing slash
+    match = re.match(r'https://([^/]+)/.*', mastodon_url)
+    if match:
+        instance_url = f'https://{match.group(1)}'
+        return instance_url
+    else:
+        raise ValueError("Invalid Mastodon URL")
+
+
+
+def get_mastodon_data(mastodon_url: str, logger: logging.Logger) -> MastodonData:
     """
     Process the Mastodon URL and retrieve data from the Mastodon instance.
     """
     try:
-        # Extract the post ID from the Mastodon URL
+        instance_url = extract_instance_url(mastodon_url)
+        mastodon = Mastodon(access_token='3FBZYtsShFIpzlD9zCy3uU4u9lZMe0TAhxT_xdwVBaQ', api_base_url=instance_url)
+
         post_id = mastodon_url.split("/")[-1].split(".")[0]
         try:
             post = mastodon.status(post_id)
-            # Retrieve the post content
             content = post["content"]
 
-            comments =[]
-            context  = mastodon.status_context(post_id)
-            if "ancestors"  in context:
+            comments = []
+            context = mastodon.status_context(post_id)
+            if "ancestors" in context:
                 for ancestor in context["ancestors"]:
                     comments.append(ancestor["content"])
             if "descendants" in context:
                 for reply in context["descendants"]:
                     comments.append(reply["content"])
 
-            return MastodonData(content=content, username=post["account"]["username"], comments= comments)
+            return MastodonData(content=content, username=post["account"]["username"], comments=comments)
 
         except MastodonAPIError as ex:
             logger.error(f"Error getting Mastodon data: {ex}")
             raise ex
+
+    except Exception as ex:
+        logger.error(f"Error getting Mastodon data: {ex}")
+        raise ex
 
         # if match:
         #     instance = match.group(1)

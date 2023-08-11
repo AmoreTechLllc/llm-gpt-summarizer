@@ -1,4 +1,4 @@
-"""Configuration file for the Reddit Summarizer."""
+"""Configuration file for the Mastodon Summarizer."""
 
 from datetime import datetime
 from functools import wraps
@@ -36,7 +36,7 @@ OPEN_AI_CHAT_MODELS: ModelList = [
         "max_token_length": 16384,
     },
     {
-        "name": "GPT 4 8k",  # will be updated to 0613 on June 267th 23
+        "name": "gpt-4",  # will be updated to 0613 on June 267th 23
         "id": "gpt-4",
         "default_chunk_token_length": 4096,
         "default_number_of_summaries": 3,
