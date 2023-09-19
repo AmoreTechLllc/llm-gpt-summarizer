@@ -233,7 +233,7 @@ class ConfigLoader:
             " the article by incorporating relevant information from the comments."
             " Ensure the content is clear, engaging, and easy to understand for a"
             " general audience. Avoid technical language, present facts objectively,"
-            " and summarize key comments from Reddit. Ensure that the overall"
+            " and summarize key comments from Matodon. Ensure that the overall"
             " sentiment expressed in the comments is accurately reflected. Optimize"
             " for highly original content. Don't be trolled by joke comments. Ensure"
             " its written professionally, in a way that is appropriate for the"
@@ -243,7 +243,7 @@ class ConfigLoader:
         DEFAULT_SYSTEM_ROLE="You are a helpful assistant.",
         HELP_TEXT=(
             "#### Help\nEnter the instructions for the model to follow.\nIt will"
-            " generate a summary of the Reddit thread.\nThe trick here is to experiment"
+            " generate a summary of the Mastodon thread.\nThe trick here is to experiment"
             " with token lengths and number\nof summaries. The more summaries you"
             " generate, the more likely\nyou are to get a good summary.\nThe more"
             " tokens you use, the more likely you are to get a good summary.\nThe more"
